@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<div ng-app="myApp" ng-controller="myController">
+			<h1>hello:{{username}} </h1>
+			<h1>自定义的服务和拦截{{hex}}-{{255|myFilter}}</h1>
+			<div ui-view="main"></div>
+		</div>
+	</body>
+	<script src="js/angular.js"></script>
+	<script src="js/angular-ui-router.js"></script>
+	<script src="js/controller.js"></script>
+	<script src="js/router.js"></script>
+</html>
